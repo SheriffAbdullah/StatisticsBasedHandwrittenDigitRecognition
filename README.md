@@ -10,6 +10,8 @@ Note:
 
 * 'Number Samples' folder contains 8 differently-written samples of each digit.
 
+* Application used to digitally hand-written digit on Mac: 'Paintbrush'
+
 
 To run code,
 execute 'testingProg.py'
