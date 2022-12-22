@@ -179,7 +179,7 @@ for i in range(10):
     num = i
     for j in range(1, 9):
         # Change directory before use
-        file = '/Users/sheriffabdullah/Coding/Project/Number Recognition/Number Samples/%d/%d_%d.png' % (i,i,j)
+        file = '/Users/sheriffabdullah/Projects/StatisticsBasedHandwrittenDigitRecognition/Number Samples/%d/%d_%d.png' % (i,i,j)
         #file = '/Users/sheriffabdullah/Coding/Project/Number Recognition/test2.png'
         dataCropped, top, bottom, left, right = crop(convertImg(file))
         trained_data[str(i)+'_'+str(j)] = segment(dataCropped,top,bottom,left,right)

@@ -4,8 +4,8 @@ from main import *
 #question part
 
 question='question'
-file = '/Users/sheriffabdullah/Coding/Project/Number Recognition/%s.png' % question
-#file = '/Users/sheriffabdullah/Coding/Project/Number Recognition/test2.png'
+
+file = '/Users/sheriffabdullah/Projects/StatisticsBasedHandwrittenDigitRecognition/%s.png' % question
 
 dataCropped, top, bottom, left, right = crop(convertImg(file))
 compressed = segment(dataCropped, top, bottom, left, right)
@@ -50,13 +50,12 @@ correct = input('Correct or not? [1-Correct] & [0-Not]: ')
 if correct == 1:
     for i in range(100):
         try: 
-            file = '/Users/sheriffabdullah/Coding/Project/Number Recognition/Number Samples/%d/%d_%d.png' % (t[0][0], t[0][0],j)
+            file = '/Users/sheriffabdullah/Projects/StatisticsBasedHandwrittenDigitRecognition/Number Samples/%d/%d_%d.png' % (t[0][0], t[0][0],j)
             convertImg(file)
         except:
             
             
     i = t[0][0]
-    j = 
-    '/Users/sheriffabdullah/Coding/Project/Number Recognition/Number Samples/%d/%d_%d.png' % (i,i,j)
+    j = '/Users/sheriffabdullah/Projects/StatisticsBasedHandwrittenDigitRecognition/Number Samples/%d/%d_%d.png' % (i,i,j)
 
 '''
