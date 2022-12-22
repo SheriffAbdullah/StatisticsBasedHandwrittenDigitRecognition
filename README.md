@@ -1,6 +1,7 @@
 # StatisticsBasedHandwrittenDigitRecognition
 
-Project Title:
+<u>Project Title:<u>
+<br>
 White-box light-weight statistics-based handwritten digit recognition model with limited training data.
 
 Note:
@@ -11,4 +12,4 @@ Note:
 
 
 To run code,
-Execute 'testingProg.py'
+execute 'testingProg.py'
